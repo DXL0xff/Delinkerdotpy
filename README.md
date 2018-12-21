@@ -1,5 +1,5 @@
-## Delinkerdotpy
-# Primary link traversal proxification tool to subvert malicious URL's
+# Delinkerdotpy
+**Primary link traversal proxification tool to subvert malicious URL's**
 
 delinker.py was written in Python3 and developed inside of a Unix environment, the following script should also work on Windows, and Linux platforms, this tool can also be ported to android and used directly with [Termux](https://termux.com/) under a properly configured environment
 
