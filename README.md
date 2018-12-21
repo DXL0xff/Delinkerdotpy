@@ -18,6 +18,7 @@ It should be noted that [delinker.py](https://github.com/DXL0xff/Delinkerdotpy/b
 
 **Installation & Usage:**
 1. `git clone https://github.com/DXL0xff/Delinkerdotpy.git`
+1. `cd Delinkerdotpy`
 1. `python3 delinker.py -t <target_link> -r <request_count>`
 
 Python modules that are required:
