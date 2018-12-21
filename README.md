@@ -16,7 +16,7 @@ It should be noted that [delinker.py](https://github.com/DXL0xff/Delinkerdotpy/b
    1. _TCP traffic from the HTTP request will be sent from the random proxy server <server_ip:port>_
 1. Prevent any malicous occurences on the client machine
 
-**Installation:**
+**Installation & Usage:**
 1. `git clone https://github.com/DXL0xff/Delinkerdotpy.git`
 1. `python3 delinker.py -t <target_link> -r <request_count>`
 
