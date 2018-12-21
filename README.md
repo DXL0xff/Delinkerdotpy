@@ -24,9 +24,12 @@ Python modules that are required:
 * [requests](https://packages.debian.org/search?keywords=python3-requests)
 
 **How to Download:**
-`pip3 install lxml requests`
+`pip3 install lxml requests`√
 or
-`apt-get install python3-lxml python3-requests`
+`apt-get install python3-lxml python3-requests`√
+
+**Installation:**
+`git clone https://github.com/DXL0xff/Delinkerdotpy.git`√
 
 *TOR can be used with delinker.py! The support for TOR will be available in a later update (This tool won't work through proxychains)*
 
