@@ -16,7 +16,9 @@ It should be noted that [delinker.py](https://github.com/DXL0xff/Delinkerdotpy/b
    1. _TCP traffic from the HTTP request will be sent from the random proxy server <server_ip:port>_
 1. Prevent any malicous occurences on the client machine
 
-**Usage:** `python3 delinker.py -t <target_link> -r <request_count>`
+**Installation:**
+1. `git clone https://github.com/DXL0xff/Delinkerdotpy.git`
+1. `python3 delinker.py -t <target_link> -r <request_count>`
 
 Python modules that are required:
 
@@ -24,12 +26,10 @@ Python modules that are required:
 * [requests](https://packages.debian.org/search?keywords=python3-requests)
 
 **How to Download:**
-`pip3 install lxml requests`√
+`pip3 install lxml requests`
 or
-`apt-get install python3-lxml python3-requests`√
+`apt-get install python3-lxml python3-requests`
 
-**Installation:**
-`git clone https://github.com/DXL0xff/Delinkerdotpy.git`√
 
 *TOR can be used with delinker.py! The support for TOR will be available in a later update (This tool won't work through proxychains)*
 
