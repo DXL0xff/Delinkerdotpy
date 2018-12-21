@@ -9,11 +9,9 @@ It should be noted that [delinker.py](https://github.com/DXL0xff/Delinkerdotpy/b
    1. _Public IPv4 address_
    1. _Country of Origin_
    1. _ISP (Internet Service Provider)_
-
 1. Route the HTTP request to the target URL via python-requests through a public proxy server
    1. _All traffic that goes to the target URL will be transferred to the proxy server (simplified below)_
    1. _TCP traffic from the HTTP request will be sent from the random proxy server <server_ip:port>_
-   
 1. Prevent any malicous occurences on the client machine
 
 **Usage:** `python3 delinker.py -t <target_link> -r <request_count>`
@@ -26,7 +24,7 @@ Python modules that are required:
 **How to Download:**
 `pip3 install lxml requests`
 or
-`apt-get install python-lxml python3-requests`
+`apt-get install python3-lxml python3-requests`
 
 *TOR can be used with delinker.py! The support for TOR will be available in a later update (This tool won't work through proxychains)*
 
