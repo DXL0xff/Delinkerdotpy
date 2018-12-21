@@ -6,11 +6,12 @@ Primary link traversal proxification tool to subvert malicious URL's
 Python modules that are required:
 
 * [lxml](https://lxml.de/)
-* [requests (Python3)](https://packages.debian.org/search?keywords=python3-requests)
+* [requests](https://packages.debian.org/search?keywords=python3-requests)
 
 **How to Download:**
-> pip3 install lxml requests
+`pip3 install lxml requests`
 or
-> apt-get install python-lxml python3-requests
+`apt-get install python-lxml python3-requests`
 
 *TOR can be used with delinker.py! The support for TOR will be available in a later update (This tool won't work through proxychains)*
+**All proxy descriptors are directly pulled from [https://free-proxy-list.net/](https://free-proxy-list.net/)**
