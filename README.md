@@ -1,7 +1,7 @@
 # Delinkerdotpy
 Primary link traversal proxification tool to subvert malicious URL's
 
-**Usage:** > python3 delinker.py -t <target_link> -r <request_count>
+**Usage:** > `python3 delinker.py -t <target_link> -r <request_count>`
 
 Python modules that are required:
 
