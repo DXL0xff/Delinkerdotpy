@@ -1,7 +1,7 @@
 # Delinkerdotpy
 **Primary link traversal proxification tool to subvert malicious URL's**
 
-**PREFACE: _This tool can be used to send spoofed HTTP requests to a target server, use responsibly the developers do not assume any responsibility for the misuse of this tool_ **
+**PREFACE: _This tool can be used to send spoofed HTTP requests to a target server, use responsibly the developers do not assume any responsibility for the misuse of this tool_**
 
 [delinker.py](https://github.com/DXL0xff/Delinkerdotpy/blob/master/delinker.py) was written in Python3 and developed inside of a Unix environment, the following script should also work on Windows, and Linux platforms, this tool can also be ported to android and used directly with [Termux](https://termux.com/) under a properly configured environment
 
