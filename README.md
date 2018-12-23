@@ -31,12 +31,12 @@ Python modules that are required:
 or
 `apt-get install python3-lxml python3-requests`
 
-** How to verify that this tool works?**
+**How to verify that this tool works?**
 1. Create a link shortener with [https://grabify.link](https://grabify.link)
 1. Copy the created link
 1. Issue `python3 delinker.py -t <grabify_link> -r <request_count>` _You can set the <request_count> to 10_
 1. Wait for the local process to finish
-1. Reload https://grabify.link/<temp_extension>, and verify the request's with the HTTP information sent from delinker.py
+1. Reload `https://grabify.link/<temp_extension>`, and verify the request's with the HTTP information sent from delinker.py
 
 *TOR can be used with delinker.py! The support for TOR will be available in a later update (This tool won't work through proxychains)*
 
