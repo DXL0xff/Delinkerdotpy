@@ -147,7 +147,7 @@ def delink_target():
 
 
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser(prog='delinker', description='reverse URL traversal tool')
+    parser = argparse.ArgumentParser(prog='delinker', description='Primary link traversal proxification tool to subvert malicious URL\'s')
 
     parser.add_argument('-t', '--target', help='the target URL to traverse through a proxy', required=True)
     parser.add_argument('-r', '--requests', help='the x amount of requests to send to the URL to traverse', required=True)
