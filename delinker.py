@@ -1,6 +1,10 @@
+# Delinkerdotpy - Primary link traversal proxification tool to subvert malicious URL's
+# This tool has the ability to send a 'flood' of 'proxified' HTTP requests to the target address to give false positives
+# and to send false information, good for 'tracker links', also should be able to be linked through tor -> 127.0.0.1:9050
+# usage: python3 delinker.py -t <target_address> -r <request_count> [--torify (available in later update)]
+
 import os
 import sys
-import ssl
 import time
 import random
 import argparse
@@ -9,7 +13,9 @@ import urllib.request
 from itertools import cycle
 from lxml.html import fromstring
 
+__author__ = 'DXL0xff'
 
+# at the moment delinker.py does not support relaying through the tor network
 def get_proxies():
     url = 'https://free-proxy-list.net/'
     
